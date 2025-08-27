@@ -1,0 +1,17 @@
+{
+  "name": "kitt-mobile",
+  "version": "0.4.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.0",
+    "@react-native-async-storage/async-storage": "^1.21.0",
+    "react-native-tts": "^6.3.0",
+    "react-native-permissions": "^3.10.1"
+  }
+}

@@ -1,0 +1,1 @@
+import {useMemo} from 'react'; import { createKitt } from './kitt'; import { Memory } from './memory'; import { MusicController } from './musicController'; import { NavService } from './navService'; import { RadarDB } from './radarDb'; export function useKitt(deps){ const k=createKitt(deps); return { say:(t)=>k.say(t), handleCommand:(u)=>k.handle(u) }; }

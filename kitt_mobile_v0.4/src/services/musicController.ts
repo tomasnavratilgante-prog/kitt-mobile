@@ -1,0 +1,1 @@
+import {Linking,Platform} from 'react-native'; export class MusicController{async play(query){const q=encodeURIComponent(query||'');const url=Platform.select({ios:`youtubemusic://search?q=${q}`,android:`https://music.youtube.com/search?q=${q}`}); try{ if(url) await Linking.openURL(url);}catch(e){} } async pause(){} }

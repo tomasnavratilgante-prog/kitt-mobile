@@ -1,0 +1,1 @@
+export const seed=[{place:'Rokytnice (u Vsetína)',hint:'u autobusové zastávky'},{place:'Rožnov p.R. – Kramolišov',hint:'u zastávky'}]; export class RadarDB{constructor(){this.items=seed;}nearest(){return this.items;}add(i){this.items.push(i);} }
